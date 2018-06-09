@@ -93,4 +93,4 @@ RUN cd qemu &&\
     ./configure --disable-kvm --disable-werror --target-list="i386-softmmu x86_64-softmmu" &&\
     make &&\
     make install &&\
-    rm -rf qemu
+    rm -rf ../qemu
